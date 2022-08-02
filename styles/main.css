@@ -1,0 +1,103 @@
+/* Link para mi paleta de colores */
+/* https://colorhunt.co/palette/7900ff548cff93ffd8cfffdc */
+
+
+body{
+    /* margin: 0; */
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F5F7FB; */
+    background-color: #7900FF;
+    color: #DFF6FF;}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+/* remover espacios vacpios a izq y der. top y botton igual */
+.container-fluid {
+    padding: 0;
+    /* background-color: #47B5FF; */
+}
+
+#emailHelp {
+    color: black;
+}
+
+.btn-primary {
+    background-color: #47B5FF;
+    border: #DFF6FF;
+}
+
+.btn-primary:hover {
+    background-color: #7900FF;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    border-radius: 16px;
+}
+
+/* .bg-light {
+    background-color: #7900FF;
+}  */
+
+/* de que nuestros brodes actuarán más natural */
+/* * {
+    box-sizing: border-box;
+} */
+
+
+/* Para centrar el contenido de la página*/
+/* .App { */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+} */
+
+/* nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: #eaeaea;
+    transition: top 500ms ease-in-out;
+} */
+
+/* nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+
+.links {
+    display: flex;
+    margin: 0 -1em;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+label{
+    margin: 10px;
+}
+
+
+table, th, td {
+    border: 1px solid gray;
+} */
