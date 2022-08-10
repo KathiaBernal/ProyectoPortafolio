@@ -63,7 +63,7 @@
                       <img src="/assets/IMG_20200211_100632.jpg" class="card-img-top" alt="Imagen a blanco y negro de Kathia Bernal">
                       <div class="card-body">
                           <h5 class="card-title">Kathia Bernal</h5>
-                          <p class="card-text">¡Hola Mundo!</p>
+                          <p class="card-text">¡Hola Mundo! <br>Mi portafolio se encuentra en proceso.</p>
                           <a href="#formulario" class="btn btn-primary">Contáctame</a>
                       </div>
                   </div>
@@ -111,21 +111,21 @@
                 <!-- mx-auto para remover margenes -->
                 <div class="col-4 mx-auto">
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <!-- <label for="exampleInputEmail1" class="form-label">Correo electrónico</label> -->
+                        <input placeholder="Correo electrónico" type="email" class="form-control" id="email" aria-describedby="emailHelp" pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})">
                         <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie
                             más.</div>
                     </div>
                 </div>
                 <div class="col-4 mx-auto">
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                        <input type="text" class="form-control" id="message">
-                    </div>
+                        <!-- <label for="exampleInputPassword1" class="form-label">Mensaje</label> -->
+                        <input placeholder="Mensaje" type="text" minlength="10"class="form-control" id="message" required autocomplete="off">
+                    </div> 
                 </div>
                 <div class="col-4 mx-auto">
                     <!-- <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                         <label class="form-check-label" for="verificacion">No envíes datos ílicitos</label>
                     </div> -->
                     <button type="submit" class="btn btn-primary">Enviar</button>
